@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Gustavo Ferreira - QA</title>
+</head>
+<body>
+   <header class="container">
+    <h1>Gustavo Ferreira - Quality Assurance Analyst</h1>
+   </header>
+
+   <main class="container">
+
+<p>Olá, me chamo Luis Gustavo Pereira Ferreira e atualmente trabalho como
+    Analista de Garantia de qualidade, também conhecido como QA 
+    (Quality Assurance)</p>
+
+<h2>O que é um QA?</h2>
+
+<p>
+  O profissional de QA é responsável por garantir o mais alto
+  nível possível de qualidade em um produto de software por meio de atividades de teste
+  e validação. Embora muitas vezes se confunda QA com a simples busca por bugs,
+  é importante destacar que a ausência total de defeitos é praticamente impossível.
+</p>
+
+<p>
+  O verdadeiro papel do QA é promover a melhor experiência possível para o usuário final.
+  Para isso, o profissional atua por meio de testes manuais e automatizados, registro
+  estruturado de defeitos e sugestão de melhorias focadas em usabilidade, acessibilidade
+  e confiabilidade do sistema.
+</p>
+
+<h2>QA na prática</h2>
+
+<p>
+ Como QA, meu trabalho depende do time de desenvolvedores. Existem várias formas de testar um produto, mas aqui focaremos em plataformas web. Imagine que você trabalha em uma empresa de marketing digital e precisa garantir que o site funcione corretamente para evitar prejuízos
+</p>
+
+<p>
+Para isso, criaremos casos de teste para validar o login da plataforma. Utilizaremos Gherkin, uma linguagem usada em BDD (Behavior Driven Development, ou Desenvolvimento Guiado por Comportamento), amplamente adotada por facilitar a comunicação entre as áreas e por auxiliar na automatização dos testes.
+</p>
+
+<h4>Cenário: Login com credenciais válidas</h4>
+
+<ul>
+  <li><b>Dado que</b> o usuário está na tela de login</li>
+  <li><b>Quando</b> ele informa credenciais válidas</li>
+  <li><b>Então</b> o acesso deve ser concedido</li>
+</ul>
+
+<p>Aqui podemos perceber que o cenário está muito simples, sem muita riqueza de detalhes e isso é proposital! Dessa forma podemos reaproveitar certos passos quando pensamos em uma automação. Por exemplo:</p>
+
+<h4>Cenário: Login com senha inválida</h4>
+<ul>
+  <li><b>Dado que</b> o usuário está na tela de login</li>
+  <li><b>Quando</b> ele informa credenciais inválidas</li>
+  <li><b>Então</b> o acesso não deve ser concedido</li>
+</ul>
+
+<h4>Cenário: Login com campos obrigatórios vazios</h4>
+<ul>
+  <li><b>Dado que</b> o usuário está na tela de login</li>
+  <li><b>Quando</b> ele tenta acessar sem informar as credenciais</li>
+  <li><b>Então</b> o sistema deve exibir uma mensagem de erro</li>
+</ul>
+
+<p>Dessa forma temos cenários prontos para automatizar e que podem ser lidos e entendidos pelo time de devs, negócios e QA's</p>
+
+</main>
+</body>
+</html>
