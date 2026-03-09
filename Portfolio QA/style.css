@@ -1,0 +1,64 @@
+/* Padronização de navegadores*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Config geral do body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #0f172a; /* Fundo azul escuro */
+  color: #e5e7eb; /* Letras brancas */
+  line-height: 1.6;
+  padding: 40px;
+}
+/* Header */
+header {
+  margin-bottom: 40px;
+}
+
+header h1 {
+  font-size: 2.2rem;
+  color: #38bdf8; /*Cor do título azul */
+}
+/* Container centralizando a página */
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+/* Config H2 */
+h2 {
+  margin-top: 40px;
+  margin-bottom: 15px;
+  color: #7dd3fc;
+  font-size: 1.6rem;
+}
+/* Config Parágrafo */
+p {
+  margin-bottom: 16px;
+  max-width: 70ch;
+}
+/* Config lista não ordenada */
+ul {
+  background-color: #111827;
+  border-left: 4px solid #38bdf8; /* Cor da borda esquerda */
+  padding: 15px 20px;
+  margin-bottom: 30px;
+  border-radius: 6px;
+}
+/* Config list item */
+li {
+  margin-bottom: 8px;
+}
+/* Config Título dos cenários */
+h4 {
+  margin-top: 25px;
+  margin-bottom: 10px;
+  color: #cbd5f5;
+  border-bottom: 1px solid #1f2937; /* linha inferior */
+  padding-bottom: 5px;
+}
+/* Config negrito dos itens da lista */
+li b {
+  color: #38bdf8;
+}
